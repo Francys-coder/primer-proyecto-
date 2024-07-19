@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.fruta {
+    text-align: center;
+    margin: 10px;
+}
+
+.fruta img {
+    width: 150px; /* Tamaño deseado de las imágenes */
+    height: 150px; /* Mismo tamaño para todas las imágenes */
+    border: 2px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}s
+
+.fruta p {
+    margin-top: 5px;
+    font-weight: bold;
+}
